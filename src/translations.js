@@ -37,32 +37,32 @@ export default {
     },
     'extensions': {
         'en': {
-            'speech.extensionName': 'Speech to Text',
-            'speech.listenAndWait': 'listen and wait',
-            'speech.whenIHear': 'when I hear [PHRASE]',
-            'speech.speechReporter': 'speech',
-            'speech.defaultWhenIHearValue': 'let\'s go'
+            'speech2text.extensionName': 'Speech to Text',
+            'speech2text.listenAndWait': 'listen and wait',
+            'speech2text.whenIHear': 'when I hear [PHRASE]',
+            'speech2text.speechReporter': 'speech',
+            'speech2text.defaultWhenIHearValue': 'let\'s go'
         },
         'ru': {
-            'speech.extensionName': 'Речь в текст',
-            'speech.listenAndWait': 'слушать и ждать',
-            'speech.whenIHear': 'когда я слышу [PHRASE]',
-            'speech.speechReporter': 'речь',
-            'speech.defaultWhenIHearValue': 'поехали'
+            'speech2text.extensionName': 'Речь в текст',
+            'speech2text.listenAndWait': 'слушать и ждать',
+            'speech2text.whenIHear': 'когда я слышу [PHRASE]',
+            'speech2text.speechReporter': 'речь',
+            'speech2text.defaultWhenIHearValue': 'поехали'
         },
         'zh-cn': {
-            'speech.extensionName': '语音转文字',
-            'speech.listenAndWait': '聆听并等待',
-            'speech.whenIHear': '当我听到 [PHRASE]',
-            'speech.speechReporter': '语音',
-            'speech.defaultWhenIHearValue': '出发'
+            'speech2text.extensionName': '语音转文字',
+            'speech2text.listenAndWait': '聆听并等待',
+            'speech2text.whenIHear': '当我听到 [PHRASE]',
+            'speech2text.speechReporter': '语音',
+            'speech2text.defaultWhenIHearValue': '出发'
         },
         'zh-tw': {
-            'speech.extensionName': '語音轉文字',
-            'speech.listenAndWait': '聆聽並等待',
-            'speech.whenIHear': '當我聽到 [PHRASE]',
-            'speech.speechReporter': '語音',
-            'speech.defaultWhenIHearValue': '開始'
+            'speech2text.extensionName': '語音轉文字',
+            'speech2text.listenAndWait': '聆聽並等待',
+            'speech2text.whenIHear': '當我聽到 [PHRASE]',
+            'speech2text.speechReporter': '語音',
+            'speech2text.defaultWhenIHearValue': '開始'
         }
     },
     'blocks': {

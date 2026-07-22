@@ -179,7 +179,7 @@ class Scratch3Speech2TextBlocks {
         this.runtime.targets.forEach(target => {
             target.blocks._scripts.forEach(id => {
                 const b = target.blocks.getBlock(id);
-                if (b.opcode === 'speech_whenIHearHat') {
+                if (b.opcode === 'speech2text_whenIHearHat') {
                     // Grab the text from the hat block's shadow.
                     const inputId = b.inputs.PHRASE.block;
                     const inputBlock = target.blocks.getBlock(inputId);
@@ -615,7 +615,7 @@ class Scratch3Speech2TextBlocks {
         return [{
             id: 'speech2text',
             name: formatMessage({
-                id: 'speech.extensionName',
+                id: 'speech2text.extensionName',
                 default: 'Speech to Text',
                 description: 'Name of extension that adds speech recognition blocks.'
             }),
@@ -625,7 +625,7 @@ class Scratch3Speech2TextBlocks {
                 {
                     opcode: 'listenAndWait',
                     text: formatMessage({
-                        id: 'speech.listenAndWait',
+                        id: 'speech2text.listenAndWait',
                         default: 'listen and wait',
                         // eslint-disable-next-line max-len
                         description: 'Start listening to the microphone and wait for a result from the speech recognition system.'
@@ -636,7 +636,7 @@ class Scratch3Speech2TextBlocks {
                 {
                     opcode: 'whenIHearHat',
                     text: formatMessage({
-                        id: 'speech.whenIHear',
+                        id: 'speech2text.whenIHear',
                         default: 'when I hear [PHRASE]',
                         // eslint-disable-next-line max-len
                         description: 'Event that triggers when the text entered on the block is recognized by the speech recognition system.'
@@ -646,7 +646,7 @@ class Scratch3Speech2TextBlocks {
                         PHRASE: {
                             type: ArgumentType.STRING,
                             defaultValue: formatMessage({
-                                id: 'speech.defaultWhenIHearValue',
+                                id: 'speech2text.defaultWhenIHearValue',
                                 default: 'let\'s go',
                                 description: 'The default phrase/word that, when heard, triggers the event.'
                             })
@@ -657,7 +657,7 @@ class Scratch3Speech2TextBlocks {
                 {
                     opcode: 'getSpeech',
                     text: formatMessage({
-                        id: 'speech.speechReporter',
+                        id: 'speech2text.speechReporter',
                         default: 'speech',
                         description: 'Get the text of spoken words transcribed by the speech recognition system.'
                     }),
