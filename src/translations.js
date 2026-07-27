@@ -23,16 +23,16 @@ export default {
             'speech2text.description': 'Talk to your projects.'
         },
         'ru': {
-            'speech2text.name': 'Речь в текст',
-            'speech2text.description': 'Говорите со своими проектами.'
+            'speech2text.name': 'Speech to Text',
+            'speech2text.description': 'Talk to your projects.'
         },
         'zh-cn': {
-            'speech2text.name': '语音转文字',
-            'speech2text.description': '和你的作品对话'
+            'speech2text.name': 'Speech to Text',
+            'speech2text.description': 'Talk to your projects.'
         },
         'zh-tw': {
-            'speech2text.name': '語音轉文字',
-            'speech2text.description': '和你的專案對話'
+            'speech2text.name': 'Speech to Text',
+            'speech2text.description': 'Talk to your projects.'
         }
     },
     'extensions': {
@@ -44,25 +44,25 @@ export default {
             'speech2text.defaultWhenIHearValue': 'let\'s go'
         },
         'ru': {
-            'speech2text.extensionName': 'Речь в текст',
+            'speech2text.extensionName': 'Speech to Text',
             'speech2text.listenAndWait': 'слушать и ждать',
             'speech2text.whenIHear': 'когда я слышу [PHRASE]',
-            'speech2text.speechReporter': 'речь',
-            'speech2text.defaultWhenIHearValue': 'поехали'
+            'speech2text.speechReporter': 'speech',
+            'speech2text.defaultWhenIHearValue': 'let\'s go'
         },
         'zh-cn': {
-            'speech2text.extensionName': '语音转文字',
+            'speech2text.extensionName': 'Speech to Text',
             'speech2text.listenAndWait': '聆听并等待',
             'speech2text.whenIHear': '当我听到 [PHRASE]',
-            'speech2text.speechReporter': '语音',
-            'speech2text.defaultWhenIHearValue': '出发'
+            'speech2text.speechReporter': 'speech',
+            'speech2text.defaultWhenIHearValue': 'let\'s go'
         },
         'zh-tw': {
-            'speech2text.extensionName': '語音轉文字',
+            'speech2text.extensionName': 'Speech to Text',
             'speech2text.listenAndWait': '聆聽並等待',
             'speech2text.whenIHear': '當我聽到 [PHRASE]',
-            'speech2text.speechReporter': '語音',
-            'speech2text.defaultWhenIHearValue': '開始'
+            'speech2text.speechReporter': 'speech',
+            'speech2text.defaultWhenIHearValue': 'let\'s go'
         }
     },
     'blocks': {
